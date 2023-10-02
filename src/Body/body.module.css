@@ -1,0 +1,155 @@
+.BigBox{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    height: 715px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.Right{
+    width: 18%;
+    height: 715px;
+    background-color: rgba(0, 0, 0, 0.374);
+    padding: 63px 5px 0px 5px;
+    
+}
+.right{
+    width: 3%;
+    height: 104px;
+    background-color: rgba(0, 0, 0, 0.374);
+    padding: 63px 3px 0px 0px;
+    text-align: center;
+    border-radius: 6px;
+}
+.RightButt{
+    background-color: transparent;
+    border: none;
+    font-size: 250%;
+    cursor: pointer;
+    position: relative;
+    width: 22%;
+    height: 6%;
+}
+.RightButt2{
+    background-color: transparent;
+    border: none;
+    font-size: 196%;
+    cursor: pointer;
+    position: relative;
+    width: 93%;
+    height: 91%;
+}
+.off{
+    display: none;
+}
+.DashBox{
+    width: 100%;
+    height: 236px;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+    justify-content: space-around;
+}
+
+.dash{
+    font-size: 153%;
+    color: white;
+    padding: 8px;
+    padding-right: 20px;
+    border-radius: 10px;
+    font-weight: 800;
+    cursor: pointer;
+}
+.dash:hover{
+    text-shadow: 0px 0px 7px;
+    background-color: #43434369;
+}
+
+
+
+/* ///////////////////////////////////////////// */
+
+.SBox{
+    width: 70%;
+    margin: auto;
+}
+
+.MainBox{
+    width: 100%;
+    height: 550px;
+    background-color: rgb(252 193 193 / 48%);
+    display: flex;
+    gap: 8%;
+    flex-wrap: wrap;
+    padding: 59px;
+    position: relative;
+}
+.boxes{
+    width: 18%;
+    height: 87px;
+    background-color: rgb(255 0 0 / 32%);
+    border-radius: 15px;
+    padding: 1%;
+    cursor: pointer;
+}
+.boxes:hover{
+    box-shadow: -1px 2px 5px 1px #777777;
+}
+
+.DashTexfa{
+direction: rtl;
+}
+
+.DashTexen{
+    direction: ltr;
+
+}
+.DashTizihEn{
+    direction: ltr;
+ text-align: center;
+
+
+}
+
+.DashTizihFa{
+direction: rtl;
+ text-align: center;
+}
+
+.Titleen{
+    direction: ltr;
+    position: absolute;
+    top: 2%;
+    left: 6%;
+
+}
+.Titlefa{
+    direction: rtl;
+    position: absolute;
+    top: 2%;
+    right: 9%;
+}
+.enden{
+direction: rtl;
+}
+.endfa{
+    direction: ltr;
+
+}
+.Boxes{
+    width: 100%;
+    height: 10%;
+    background-color: #777777;
+    display: flex;
+    direction: ltr;
+}
+
+.faaliyat{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Faliyat{
+    
+}
